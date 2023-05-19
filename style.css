@@ -1,0 +1,644 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    }
+body {
+    background-color : #000;
+    color : #FFF; 
+    font-family: 'Raleway', Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+/* --------------Début du Header--------------- */
+#header {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0£;
+    color:#000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 150px;
+}
+#logo {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-left: 3%;
+}
+#logo>img {
+    width: 100%;
+    height: 100%;
+}
+#title {
+    width: 810px;
+    height: 70px;
+    max-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner {
+    background-color: #FF0019;
+    border-radius: 50px 50px 50px 50px;
+    border: solid 2px aliceblue;
+    width: 80%;
+    max-width: 80%;
+    height: 70%;
+    max-height : 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#banner>h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: aliceblue;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+} 
+#menu {
+    margin-right: 3%;
+    width: 200px;
+}
+#menu>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#menu >ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+/* --------------Fin  du Header--------------- */
+
+/* -----------Début de main-banniere -------- */
+#main-banniere {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: solid 0.1em #2D2D2D;
+}
+
+.banner{
+    position: relative;
+}
+.image_banner{
+    width: 100%;
+    height: 500px;
+}
+#main-banniere img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#image-banner_mobile{
+    display: none;
+}
+#main-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#main-title h1 {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 1px 1px  #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+}
+#banner-btn {
+    position: absolute; 
+    top : 70%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    background-color: #2D2D2D;
+    padding: 1% 2% 1% 2%;
+    color:aliceblue; 
+    border: solid 1px aliceblue;
+    opacity: 90%;
+    text-decoration: none;
+    border-radius: 1.2em 1.2em 1.2em 1.2em;
+}
+
+/* Fin de section main-bannière  */
+/* Début de section presentation  */
+#introduction{
+    position: relative;
+}
+#presentation {
+    height: 370px;
+    border-bottom: solid 1px #FF0019;
+    display: flex;
+    justify-content: center;
+}
+
+#presentation>h2 {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 5%;
+}
+#image-presentation {
+    position: absolute; 
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#image-presentation>img{
+    height: 320px;
+    width: 440px;
+}
+#qui-suis-je {
+    display: flex;
+    justify-content: space-between;
+    /* height: 550px;
+    max-height: 550px; */
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+}
+#bloc-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 3%;
+}
+#bloc-text h2 {
+    font-family: 'Allura', cursive;
+    font-size: 4em;
+    margin: 0px 0px 0px 10px;
+}
+#bloc-text h3 {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5em;
+}
+#bloc-text h4 {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#bloc-text p {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.em;
+}
+#qui-suis-je img {
+    height: 450px;
+    width: 450px;
+    margin-top: 0%;
+    margin-right: 9%;
+}
+#introduce-my-project {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#introduce-my-project h2 {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+    margin-bottom: 0.5%;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+#arrow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#arrow img {
+    display: flex;
+    width: 9em;
+    height: 9em;
+    justify-content: center;
+    align-items: center;
+    text-decoration: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+} 
+/* Fin de section presentation */
+/* Début de section main - projets  */
+#integration-html-css {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+#web-app {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#seo-optimization {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#side-project {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bloc-project-column-1, .bloc-project-column-2 {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 33%;
+    max-width: 33%;
+    box-shadow: 0px 5px 20px #c7c8ca;
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px FF0019;
+
+}
+.bloc-project-column-1>img, .bloc-project-column-2>img, #e-cv {
+    display: flex;
+    background-size:cover; 
+    border-radius: 10px 10px 0px 0px;
+    height: 320px;
+    max-height: 320px;
+}
+#projet-booki {
+    background-image: url(images/booki-projet.jpg);
+}
+#projet-ohmyfood {
+    background-image: url(images/ohmyfood-projet.jpg);
+    background-position: center;
+}
+#projet-kanap{
+        background-image: url(images/kanap-projet.jpg); 
+        background-position: center;
+}
+#projet-piiquante{
+    background-image: url(images/projet-piiquante.jpg); 
+    background-position: center;
+
+}
+#projet-la-panthere{
+    background-image: url(images/projet-la-panthere.jpg); 
+    background-position: center;
+
+}
+#projet-kasa{
+    background-image: url(images/projet-kasa.jpg); 
+    background-position: center;
+
+}
+#projet-e-cv{
+    background-image: url(images/projet-en-cours.jpg); 
+    background-position: center;
+
+} 
+.contents_descript {
+    display: flex;
+    flex-direction: column;
+}
+.content_descript_title {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    color: #FF0000;
+    margin: 3% 1% 1% 0%;
+    text-align: center;
+    font-weight: 800;
+
+}
+
+.content_descript_text {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.btn-project {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.btn-project>a {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color : #FFF; 
+    background-color: #939393; 
+    padding: 0.5% 5%;
+    border-radius: 5% 5% 5% 5%;
+    border: solid 1px aliceblue;
+}
+
+.btn-project>a>p {
+    margin-left: 5%;
+}
+
+.icon_used_techno {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.ico-skills{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 2em;
+}
+/* début du FAQ */
+#faq {
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#faq h2 {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif; 
+  font-weight: 700;
+  font-size: 2em;
+}
+.box {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.box li{
+    list-style-type: none;
+    width: 100%;
+    padding: 5px;
+}
+.box li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    cursor: pointer;
+    position: relative;
+}
+.box li label::after{
+    content: '+';
+    font-size: 3em;
+    position: absolute;
+    right: 3%;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.box .content {
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.box input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.box input[type="radio"]:checked + label::after {
+    transform: rotate(135deg)
+}
+
+/* Fin du FAQ */
+
+/* début du footer */
+footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer>p {
+    text-align: center;
+}
+.footer-button {
+    display: flex; 
+    width : 100%; 
+    justify-content: center;
+
+}
+.footer-button>a {
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.ico-footer{
+    font-size: 2em;
+}
+
+/* Fin du Footer  */
+
+
+/* Début des Médias Queries  */
+
+
+@media screen and (max-width: 1280px) {
+
+    #introduction {
+        height: 1500px;
+    }
+    #qui-suis-je {
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #qui-suis-je img {
+        margin-right: 0%;
+    }
+    #bloc-text {
+        margin : 0; 
+    }
+    #introduce-my-project{
+        height: 300px;
+        margin: 0;
+    }
+    #introduce-my-project h2 {
+        display: flex;
+        justify-content: center;
+    }
+    #arrow {
+        margin-bottom: 10%;
+    }
+    #display-projects {
+        margin-top: 25%;
+        display: flex;
+        flex-direction: column;
+    }
+    #integration-html-css, #web-app, #seo-optimization{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .bloc-project-column-1{
+        width: 50%;
+        max-width: 50%;
+        margin-bottom: 8%;
+    }
+    .bloc-project-column-2{
+        width: 50%;
+        max-width: 50%;
+        margin-bottom: 5%;
+    }
+    #projet-la-panthere{
+        background-image: url(images/la-panthere-projet.jpg); 
+        background-position: center;
+    
+    }
+}
+@media screen and (max-width: 720px) {
+
+    #header {
+        flex-direction: column;
+        background-color: #000;
+        margin-top: 1%;
+        width: 100%;
+     
+    }
+    .banner {
+        width: 335px;
+        margin: auto;
+        position: relative;
+    }
+    #menu {
+        margin: 0;
+        display: flex;
+    }
+    #menu>ul {
+        padding: 0
+    }
+    #menu >ul>li>a{
+        color: red;
+
+    }
+
+    #main-banniere {
+        margin-top: 3%;
+        border: 0;
+        width: 100%;
+    }
+    #main-banniere>img {
+
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+        
+    }
+    #image-banner_mobile{
+        display: flex;
+        width: 100%;
+        border-radius: 25px;
+     
+    }
+    #image-banner_mobile>img{
+        border-radius: 25px;
+        
+    }
+    
+    #bloc-text {
+        width: 335px;
+    }
+    #image-presentation {
+        top: 18%;
+        width: 335px;
+        height: 350px;
+        position: relative;
+        display: flex;
+    }
+
+    #image-presentation>img{
+        top:  -18%;
+        display: flex;
+        margin: 0;
+    }
+
+    #qui-suis-je{
+        margin-top: 0;
+    }
+    #qui-suis-je>img {
+        width: 335px;
+        height: 335px;
+    }
+
+    #banner-btn {
+        position: absolute;
+        top: 400px;
+    }
+    .image_banner {
+        display: none;
+    }
+    #title {
+        display: none;
+    }
+    #menu {
+        display: block;
+    }
+
+    #introduction {
+        height: auto;
+        width: 100%;
+    }
+    #presentation {
+        display: flex;
+        margin-top: 5%;
+    }
+    #presentation h2 {
+       text-align: center;
+       width: 80%;
+    }
+    #arrow {
+        margin-bottom: 15%;
+    }
+    #display-projects{
+        margin-top: 45%;
+    }
+    .bloc-project-column-1, .bloc-project-column-2 {
+        width: 80%;
+        max-width: 80%;
+    }
+    #faq{
+        width: 100%;
+    }
+    .box {
+        width: 100%;
+        padding: 0;
+    }
+
+    .box li label{
+        text-align: left;
+        width: 100%;
+        font-size: 12px;
+    }
+}
